@@ -734,12 +734,12 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);;
     text-decoration: none
 }
 
-.panel-list:hover {
+.panel-list:hover .portfolio-info {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     transform: translatey(0%);
 }
 
-.panel-list:focus {
+.panel-list:focus .portfolio-info {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     transform: translateY(0%);
 }
@@ -750,15 +750,6 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);;
     text-decoration: none;
 
 }
-
-.image-item:hover .portfolio-info {
-    transform: translatey(0%);
-}
-
-.image-item:focus .portfolio-info {
-    transform: translateY(0%);
-}
-
 
 
 
