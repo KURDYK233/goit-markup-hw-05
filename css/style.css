@@ -706,6 +706,10 @@ border-radius: 4px;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.panel-list:hover {
+    transform: translatey(0%);
+}
+
 .portfolio-info-wrap {
     position: relative;
     overflow: hidden;
@@ -732,10 +736,12 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 
 .panel-list:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translatey(0%);
 }
 
 .panel-list:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
 }
 
 .image-item {
